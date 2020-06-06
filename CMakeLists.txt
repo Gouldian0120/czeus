@@ -8,10 +8,10 @@ set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} -std=c++11)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # Header file include path
-include_directories(${PROJECT_SOURCE_DIR}/client)
-include_directories(${PROJECT_SOURCE_DIR}/server)
+include_directories(${PROJECT_SOURCE_DIR}/Zeus-Client)
+include_directories(${PROJECT_SOURCE_DIR}/Zeus-Server)
 
 # Add subdirectory
-add_subdirectory(client)
-add_subdirectory(server)
+add_subdirectory(Zeus-Client)
+add_subdirectory(Zeus-Server)
 
