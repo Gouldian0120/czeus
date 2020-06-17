@@ -120,7 +120,8 @@ public:
 	}
 
 	void run() {
-		_pClient->send(_pHeader);
+		if (_pClient != nullptr)
+			_pClient->send(_pHeader);
 		delete _pHeader;
 	}
 private:
