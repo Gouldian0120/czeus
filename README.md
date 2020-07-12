@@ -24,10 +24,6 @@ A high performance, cross-platform Internet Communication Engine. Developed with
 - Structured message data
 - Good OOP encapsulation of network modules
 
-# Examples
-
-There are examples of a TCP client and TCP server under `examples/`. The server is an echo server, which sends back messages
-
 ## Build
 ### Linux & MacOS
 CMake 3.0.0 or higher.
@@ -35,21 +31,8 @@ CMake 3.0.0 or higher.
 g++ 4.7 or higher.
 ```
 git clone https://github.com/navining/Zeus.git
-cd Zeus/examples
+cd Zeus
 ./build.sh
 ```
-
 ### Windows
-Visual Studio 2015 or higher. Open `Zeus.sln` and build with VS.
-
-## Run
-
-Executable files are generated under `bin/`.
-
-Sample script are provided as well, where programmers can custom the parameters.
-
-### Linux & MacOS
-`server.sh` and `client.sh` under `server/` and `client/`.
-
-### Windows
-`server.bat` and `client.bat` under `server/` and `client/`.
+Visual Studio 2015 or higher.
