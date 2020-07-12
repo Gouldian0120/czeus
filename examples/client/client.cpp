@@ -5,7 +5,6 @@
 #include <thread>
 #include "Timestamp.h"
 #include "TcpClient.h"
-#include <vector>
 #include <atomic>
 #include "Config.h"
 
@@ -60,7 +59,7 @@ int numOfMsg;
 
 int msgCount = 0;
 
-std::atomic_int clientsCount;
+std::atomic_int clientsCount = 0;
 
 void cmdThread(Thread &t) {
 	while (t.isRun())
