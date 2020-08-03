@@ -5,7 +5,6 @@ A high performance, cross-platform Internet Communication Engine. Developed with
 ### Cross Platform
 - Both client and server can run on Windows, Linux or MacOS.
 - Cross-platform communication between client and server.
-- Support different IO-multiplexing Models
 ### Lightweight
 - Developed with native socket API and C++ standard libraries, no dependency on any external libraries.
 - Along with an one-click compile script to deploy.
@@ -17,7 +16,7 @@ A high performance, cross-platform Internet Communication Engine. Developed with
 - Friendly configuration files
 - Heartbeat detection and flow control is available
 - Customizable thread pool, memory pool and object pool
-### Multiple IO-Multiplexing Models
+### Multiple Network Models
 - select
 - IOCP (TODO)
 - epoll
